@@ -12,27 +12,10 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-dependencies</artifactId>
-            <version>2021.0.9</version>
-            <type>pom</type>
-            <scope>import</scope>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
+
+
     </dependencies>
 
-    <name>Maven</name>
-    <url>http://maven.apache.org/</url>
-    <inceptionYear>2001</inceptionYear>
-
-    <distributionManagement>
-        <site>
-            <id>website</id>
-            <url>
-                file://C:\Users\Lenovo\AppData\Local\Temp\archetype2c7a476f99da88fd4b5a9b9cfe70cf7atmp/target/deployed-site
-            </url>
-        </site>
-    </distributionManagement>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 </project>
