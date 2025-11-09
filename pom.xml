@@ -16,6 +16,7 @@
     <description>MicroService</description>
     <modules>
         <module>config-server2</module>
+        <module>eureka-server</module>
     </modules>
 
     <properties>
