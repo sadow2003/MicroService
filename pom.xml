@@ -17,6 +17,9 @@
     <modules>
         <module>config-server2</module>
         <module>eureka-server</module>
+        <module>user-service</module>
+        <module>gateway-server</module>
+        <module>product-service</module>
     </modules>
 
     <properties>
@@ -35,10 +38,7 @@
     </dependencies>
 </dependencyManagement>
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
