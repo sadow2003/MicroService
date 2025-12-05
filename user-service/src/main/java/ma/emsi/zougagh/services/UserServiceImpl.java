@@ -13,8 +13,7 @@ public class UserServiceImpl implements IUserService {
     private final UserRepository userRepository;
     private final UserMapper userMapper;
 
-    public UserServiceImpl(UserRepository userRepository,
-                           UserMapper userMapper) {
+    public UserServiceImpl(UserRepository userRepository, UserMapper userMapper) {
         this.userRepository = userRepository;
         this.userMapper = userMapper;
     }
@@ -38,8 +37,6 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public List<UserDto> selectUsers() {
-        return
-                userRepository.findAll().stream().map(userEntity ->
-                        userMapper.toDto(userEntity)).collect(Collectors.toList());
+        return userRepository.findAll().stream().map(userEntity -> userMapper.toDto(userEntity)).collect(Collectors.toList());
     }
 }
